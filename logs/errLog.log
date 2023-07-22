@@ -1,0 +1,613 @@
+20230110	15:07:27	f4f6468e-615e-4ad0-aed7-a89927f69bda	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20230110	15:07:27	d3ae9ce1-3aa2-4d64-98c2-7c149e656e97	Error: Not allowed by CORS	GET	/	https://www.google.com
+20230113	17:48:57	1099a43e-6c7f-4ac0-b251-39b4d22a377f	SyntaxError: Unexpected token , in JSON at position 0	DELETE	/board	undefined
+20230113	17:49:53	100c883b-9475-4ae8-b6c9-8352285aa8ea	SyntaxError: Unexpected token , in JSON at position 128	DELETE	/board	undefined
+20230113	17:57:52	8e4810e8-b086-4aef-bcbd-8c15d3f60d99	ReferenceError: User is not defined	POST	/board	undefined
+20230113	18:17:25	2dd56ad5-1e0a-4ee0-b23d-7ae7ecb249c1	ReferenceError: User is not defined	POST	/board/63c1d7f64323c268abefdf11/column	undefined
+20230113	18:17:53	2f1f15e4-184a-4ff2-973e-06b9bc9c48d0	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c1d7f64323c268abefdf11/column	undefined
+20230113	18:45:19	f5f02a6e-8792-456a-ba90-fa5b93f7e2a7	Error: Cannot set headers after they are sent to the client	POST	/board/63c1d7f64323c268abefdf11/column/	undefined
+20230113	18:55:27	9a3a5edf-d17f-4b79-a342-0c32a2baba3b	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c1d7f64323c268abefdf11/column/	undefined
+20230113	18:56:28	1bddafa8-f7da-41b4-9127-c924f387d016	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c1d7f64323c268abefdf11/column/	undefined
+20230113	19:25:29	1b6379ff-5b34-4258-9ed6-5efea1ce4116	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c1d7f64323c268abefdf11/column/	undefined
+20230113	22:32:24	b85946a5-6e16-414b-bff6-33ee4962b5af	TypeError: Cannot read properties of undefined (reading 'findOne')	POST	/board/63c1e22fb4ae8f4515abe78d/column/	undefined
+20230113	22:33:52	1ac2c7b2-de7f-4292-8cfa-855ac973cbf5	TypeError: board.columns.findOne is not a function	POST	/board/63c1e22fb4ae8f4515abe78d/column/	undefined
+20230113	22:35:41	73ee07c8-d87d-430c-99a2-f73ca734dab1	TypeError: columns.findOne is not a function	POST	/board/63c1e22fb4ae8f4515abe78d/column/	undefined
+20230114	08:10:06	b5b5dfbc-cb67-49d1-b499-892d1df15c8b	ReferenceError: colums is not defined	POST	/board/63c1e22fb4ae8f4515abe78d/column/	undefined
+20230114	08:15:08	2c51d2a7-c793-47d8-9596-578cc8a06024	TypeError: column.replace is not a function	POST	/board/63c1e22fb4ae8f4515abe78d/column/	undefined
+20230114	09:37:32	5a1d3d9e-b705-4c9c-b295-7081b29e2837	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c2bcae57e032365cd75093/column/new	undefined
+20230114	09:38:49	df156c89-b027-44fc-994d-6b3cf582606a	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c2bcae57e032365cd75093/column/new	undefined
+20230114	09:39:16	b0ae0eda-868e-4431-80ed-a310ca629902	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c2bcae57e032365cd75093/column/new	undefined
+20230114	09:39:48	d9f3bb93-c370-4ea9-9a88-ac8b3d56a112	TypeError: Cannot read properties of null (reading 'columns')	POST	/board/63c2bcae57e032365cd75093/column/new	undefined
+20230114	10:25:37	d4a901bb-28a9-4617-9da0-44da3bedd669	ReferenceError: resjson is not defined	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/new	undefined
+20230114	10:26:07	2f5599af-1901-4814-9b70-1df6328d94b7	ReferenceError: json is not defined	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/new	undefined
+20230114	10:42:39	4a6b2dde-c74f-4ba5-a50f-b4d40efac6bb	ValidationError: Task validation failed: status: Cast to ObjectId failed for value "Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },
+  _executionStack: null,
+  mongooseCollection: Collection {
+    collection: Collection { s: [Object] },
+    Promise: [Function: Promise],
+    modelName: 'Column',
+    _closed: false,
+    opts: {
+      autoIndex: true,
+      autoCreate: true,
+      schemaUserProvidedOptions: {},
+      capped: false,
+      Promise: [Function: Promise],
+      '$wasForceClosed': undefined
+    },
+    name: 'columns',
+    collectionName: 'columns',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: {},
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: undefined,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _queue: [],
+      _listening: false,
+      _connectionString: 'mongodb+srv://kanban:kanban123@cluster0.vzysuoz.mongodb.net/kanbanDB?retryWrites=true&w=majority',
+      _connectionOptions: [Object],
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      db: [Db],
+      host: 'ac-lijjqet-shard-00-00.vzysuoz.mongodb.net',
+      port: 27017,
+      name: 'kanbanDB'
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  model: Model { Column },
+  schema: Schema {
+    obj: { name: [Object], tasks: [Array] },
+    paths: {
+      name: [SchemaString],
+      tasks: [SchemaArray],
+      _id: [ObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: { 'tasks.$': [ObjectId] },
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      name: [Object],
+      tasks: [Array],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [],
+    plugins: [ [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 3,
+    mapPaths: [],
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      typeKey: 'type',
+      id: true,
+      _id: true,
+      validateBeforeSave: true,
+      read: null,
+      shardKey: null,
+      discriminatorKey: '__t',
+      autoIndex: null,
+      minimize: true,
+      optimisticConcurrency: false,
+      versionKey: '__v',
+      capped: false,
+      bufferCommands: true,
+      strictQuery: true,
+      strict: true,
+      pluralization: true
+    },
+    '$globalPluginsApplied': true,
+    _requiredpaths: [ 'name' ],
+    _indexedpaths: []
+  },
+  op: 'findOne',
+  options: {},
+  _conditions: { _id: '63c220f99e9de8e89765365e' },
+  _fields: undefined,
+  _update: undefined,
+  _path: undefined,
+  _distinct: undefined,
+  _collection: NodeCollection {
+    collection: Collection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      modelName: 'Column',
+      _closed: false,
+      opts: [Object],
+      name: 'columns',
+      collectionName: 'columns',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'columns'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}" (type Query) at path "status" because of "BSONTypeError"	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/new	undefined
+20230114	10:43:18	b9521377-28e2-4f73-9d04-340ad79e3a78	ValidationError: Task validation failed: status: Cast to ObjectId failed for value "Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },
+  _executionStack: null,
+  mongooseCollection: Collection {
+    collection: Collection { s: [Object] },
+    Promise: [Function: Promise],
+    modelName: 'Column',
+    _closed: false,
+    opts: {
+      autoIndex: true,
+      autoCreate: true,
+      schemaUserProvidedOptions: {},
+      capped: false,
+      Promise: [Function: Promise],
+      '$wasForceClosed': undefined
+    },
+    name: 'columns',
+    collectionName: 'columns',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: {},
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: undefined,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _queue: [],
+      _listening: false,
+      _connectionString: 'mongodb+srv://kanban:kanban123@cluster0.vzysuoz.mongodb.net/kanbanDB?retryWrites=true&w=majority',
+      _connectionOptions: [Object],
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      db: [Db],
+      host: 'ac-lijjqet-shard-00-00.vzysuoz.mongodb.net',
+      port: 27017,
+      name: 'kanbanDB'
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(kCapture)]: false
+    }
+  },
+  model: Model { Column },
+  schema: Schema {
+    obj: { name: [Object], tasks: [Array] },
+    paths: {
+      name: [SchemaString],
+      tasks: [SchemaArray],
+      _id: [ObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: { 'tasks.$': [ObjectId] },
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      name: [Object],
+      tasks: [Array],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [],
+    plugins: [ [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 3,
+    mapPaths: [],
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      typeKey: 'type',
+      id: true,
+      _id: true,
+      validateBeforeSave: true,
+      read: null,
+      shardKey: null,
+      discriminatorKey: '__t',
+      autoIndex: null,
+      minimize: true,
+      optimisticConcurrency: false,
+      versionKey: '__v',
+      capped: false,
+      bufferCommands: true,
+      strictQuery: true,
+      strict: true,
+      pluralization: true
+    },
+    '$globalPluginsApplied': true,
+    _requiredpaths: [ 'name' ],
+    _indexedpaths: []
+  },
+  op: 'findOne',
+  options: {},
+  _conditions: { _id: '63c220f99e9de8e89765365e' },
+  _fields: undefined,
+  _update: undefined,
+  _path: undefined,
+  _distinct: undefined,
+  _collection: NodeCollection {
+    collection: Collection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      modelName: 'Column',
+      _closed: false,
+      opts: [Object],
+      name: 'columns',
+      collectionName: 'columns',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'columns'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}" (type Query) at path "status" because of "BSONTypeError"	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/new	undefined
+20230114	11:13:34	63881390-1651-471a-8291-ca364093da12	ReferenceError: id is not defined	PATCH	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/edit	undefined
+20230114	11:25:35	367ce052-59ad-40fb-99ed-0e88a449cca8	Error: Cannot set headers after they are sent to the client	PATCH	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/edit	undefined
+20230114	12:11:45	573b25ba-d6a5-44e8-924e-4d3de270c3c8	ReferenceError: description is not defined	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/new	undefined
+20230114	12:12:48	7e5814f0-3cfe-4357-82b9-4ed541260c11	ValidationError: Task validation failed: description: Path `description` is required.	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/new	undefined
+20230114	14:11:33	3819c0c0-32f5-468c-adb2-5b446417b037	ReferenceError: isCompleted is not defined	POST	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/63c2e22496228752580bb6e9/new	undefined
+20230114	14:24:02	48329684-e448-422f-a078-1480ed585fdc	ReferenceError: id is not defined	PATCH	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/63c2e22496228752580bb6e9/edit	undefined
+20230114	14:25:10	52661fc9-0990-48e6-8149-c2fbf497d09e	ReferenceError: updatedTask is not defined	PATCH	/board/63c1d7f64323c268abefdf11/column/63c220f99e9de8e89765365e/task/63c2e22496228752580bb6e9/edit	undefined
+20230116	11:18:11	94ee00af-62de-475d-8406-dcc3e44229cb	ReferenceError: User is not defined	GET	/board	http://localhost:3000
+20230116	11:19:02	bd8af25e-0906-496d-bcf5-88d125da93b1	ReferenceError: User is not defined	GET	/board	http://localhost:3000
+20230116	11:22:25	18d81248-f2b0-4432-a907-4459efa6dbc9	ReferenceError: User is not defined	GET	/board	undefined
+20230116	13:11:51	afcec5cb-2ce2-495f-a9f6-4b6b6adc5589	TypeError: board.map is not a function	GET	/board/63c1d7f64323c268abefdf11/	undefined
+20230118	17:57:36	29d6d108-e559-4a13-a7e7-494918f820b7	CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "Board"	GET	/board/:id	http://localhost:3000
+20230118	18:15:39	8f4042d2-7dab-47ea-ac9b-286badc7c459	CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "Board"	GET	/board/:id	http://localhost:3000
+20230118	18:26:03	a8b22124-377e-478f-be16-731c3c7028a6	CastError: Cast to ObjectId failed for value ":id" (type string) at path "_id" for model "Board"	GET	/board/:id	http://localhost:3000
+20230118	18:30:11	bd0b3d21-3758-4281-b3a9-25d696ae73c7	TypeError: Cannot read properties of null (reading 'columns')	GET	/board/63c1d7f64323c268abefdf11	undefined
+20230118	18:31:43	8033538f-7168-460c-9d10-4cbf9bb7b9b6	TypeError: Cannot read properties of null (reading 'columns')	GET	/board/63c1d7f64323c268abefdf11	undefined
+20230118	18:32:24	74c4998d-f8b9-4187-911f-adef056c8da1	TypeError: Cannot read properties of null (reading 'columns')	GET	/board/63c1d7f64323c268abefdf11	undefined
+20230118	18:36:37	88c8a54d-4155-4170-91e8-8173edd762e7	TypeError: Cannot read properties of null (reading 'columns')	GET	/board/63c1d7f64323c268abefdf11	undefined
+20230119	08:37:28	1f8f910c-7ef6-4ca1-a0f5-ea51dcafd9e1	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:37:28	dae5e440-7d20-485a-9c25-a393ce51d614	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:39:29	cb908243-fe68-4110-a5ec-722bbe8c0987	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:39:32	f7698a31-42bf-45f1-b965-d862f73b628a	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:39:46	0272f5ea-481f-46b9-8dd7-3ed19397fb0f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:39:47	6bff2d36-a0f1-4172-9006-04e6dc4adeba	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:41:42	1fb488d6-c622-4b19-ad56-26f3c7cb3b72	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:41:42	72c38125-55da-4095-b062-1f12db5ea22d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:45:04	3cc137f1-e5e2-4dd1-b20b-ccaf5c96caee	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:45:04	6c2beec3-24af-4abf-97a0-7a2fb54f2ec7	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:45:10	ad8f96d9-8f93-4333-a5fb-1fbbf956472c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:45:11	d595c6c4-44b8-477a-8f71-eb4440a73a6f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:45:49	23f86fbd-d19e-419c-8862-0a398195d1bb	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:45:50	80f86e6b-400a-4aec-b62d-4be5edf5cf28	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:45:58	799e5d19-6b1f-47a6-9f87-8062730f5fd4	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:45:58	33c1d61b-6485-4bab-9cea-344567c2279d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:47:54	2c069b0e-7577-45d5-a760-1a35e551c5a7	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:47:54	f2afeaf2-1cab-474c-bf76-efa498878818	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:55:07	fab6c6fc-c478-4936-9963-643f7652bdcb	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	08:55:07	a0c2d9ac-2ebe-4cd4-9fff-f77d789ee21c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:55:42	870ab625-8e11-4c10-8d4a-57114c9f2f9c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	08:55:42	7f3e9670-f914-464f-b2a7-26844d4067ed	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	09:05:42	f5e4388e-d5fa-4efa-8b27-14cdcd7811dc	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	09:05:42	10e3424c-2eb4-4dd2-8baa-19487d20ec03	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230119	09:07:34	9a638269-d5e1-4c4b-a064-72bae81494a3	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230119	09:07:34	af38e6d5-f8ec-46fe-bf6e-e94befe627c1	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230121	10:06:10	53e7e319-da80-4402-b082-4514c2743755	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230121	10:06:48	9b74216b-2d5c-452e-9670-c25bb899c9df	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board/:id	http://localhost:3000
+20230121	10:06:48	c3885f12-ead7-4fbd-96e0-17f276378658	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230122	14:20:05	96d30b1c-e0b8-455c-9b62-2ff20c597ff7	CastError: Cast to ObjectId failed for value "63cd8c3744299168313ecef0\n" (type string) at path "_id" for model "Board"	PATCH	/board/63cd8c3744299168313ecef0%0A	undefined
+20230129	12:51:38	e5aaf32e-4658-475f-999b-09753e2b7d7d	ReferenceError: id is not defined	DELETE	/board	undefined
+20230129	13:23:12	6b6a51cf-d492-4441-a0da-e44a149b06fe	SyntaxError: Unexpected string in JSON at position 149	PATCH	/task	undefined
+20230130	19:13:52	501aed15-0000-4d16-8fdc-8303edc2ddcd	ValidationError: Column validation failed: name: Cast to string failed for value "[ { colName: 'sss' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230131	10:26:37	27db5aa9-78af-43f3-be93-656cb56c6501	ValidationError: Column validation failed: name: Cast to string failed for value "{ colName: 'sssss' }" (type Object) at path "name"	POST	/column	http://localhost:3000
+20230131	10:36:50	16587f03-26b1-4729-9824-310c3108f046	ValidationError: Column validation failed: name: Cast to string failed for value "{ name: 'ssss' }" (type Object) at path "name"	POST	/column	http://localhost:3000
+20230131	10:38:45	f7a55667-572d-40e5-9c21-cb6a96d80c1d	ValidationError: Column validation failed: name: Cast to string failed for value "{}" (type Object) at path "name"	POST	/column	http://localhost:3000
+20230131	11:57:36	57c76b2b-67b7-4c9e-83dd-188c88f66234	ValidationError: Column validation failed: name: Cast to string failed for value "{ name: 'dsfdfdsf' }" (type Object) at path "name"	POST	/column	http://localhost:3000
+20230131	11:57:37	1f512cd1-870e-49d8-b5f3-b4b10e0fc9a8	ValidationError: Column validation failed: name: Cast to string failed for value "{ name: 'sdfdsfsdfsfd' }" (type Object) at path "name"	POST	/column	http://localhost:3000
+20230131	16:44:56	d03ec79e-9c0a-4752-a682-c6c9ea5672c7	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: 'kj;llkj;k' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230201	13:55:29	71c93877-6281-4973-ac0a-dc5d64d4fb69	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: '' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230201	15:22:53	9a6d2139-29a1-441d-a529-3b1d739af140	SyntaxError: Unexpected token } in JSON at position 118	POST	/column	undefined
+20230201	15:38:11	80f95e77-496a-4314-b08f-3573bac22f24	SyntaxError: Unexpected string in JSON at position 51	POST	/board	undefined
+20230201	16:37:20	42c802ab-7a17-4519-aceb-2064e6c5e577	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230202	13:49:22	28aab00e-f405-4215-8065-2785f90409b2	TypeError: Cannot read properties of undefined (reading 'map')	DELETE	/column	undefined
+20230202	13:58:53	23b9d0de-6a12-489e-9ffd-a3252b2b41f8	ReferenceError: result is not defined	DELETE	/column	undefined
+20230202	14:00:14	38857e6a-c3f7-4ee0-852f-bbb81fe5f2a6	ReferenceError: reply is not defined	DELETE	/column	undefined
+20230202	17:49:32	555ac2e6-fa13-4e21-a3cc-fc534cd1c436	CastError: Cast to ObjectId failed for value "dkk;63dadb8f041f2ffdb4a1f563" (type string) at path "_id" for model "Board"	DELETE	/column	undefined
+20230202	17:50:06	2a139dbc-1856-42b1-867b-a31119f47f94	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc3dca8e0d3723db1c159b") }" on model "Column"	DELETE	/column	undefined
+20230202	17:51:15	540d1b3f-5f3e-4e44-b816-0eb0ef3774ee	SyntaxError: Unexpected token / in JSON at position 52	POST	/column	undefined
+20230202	17:51:34	8026c65a-5483-4965-906b-0bb5ce578162	SyntaxError: Unexpected token / in JSON at position 10	POST	/column	undefined
+20230202	17:51:49	28860ea5-9c84-42cb-82d2-99d82ac301b8	SyntaxError: Unexpected token / in JSON at position 10	POST	/column	undefined
+20230202	17:52:24	ade3258d-ccdb-4a1d-b69b-20fdc631cd73	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc3e8f0576bf476198de10") }" on model "Column"	DELETE	/column	undefined
+20230202	17:53:31	8671c10e-1bb7-4b30-8ce2-7b177b35f76d	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc3eda0576bf476198de20") }" on model "Column"	DELETE	/column	undefined
+20230202	17:55:49	78b47f4e-69fe-443f-8efc-868045d5b8dd	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc3f51cb406766fc10df0a") }" on model "Column"	DELETE	/column	undefined
+20230202	17:59:00	fdb77d90-9ed9-4d7b-b7cd-a1803b7a0d16	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc4019be8525866beaacd3") }" on model "Column"	DELETE	/column	undefined
+20230202	18:04:12	b8c8cdf8-7213-42bd-8e2b-2f1e6ba40183	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc414fb05467c360b5c766") }" on model "Column"	DELETE	/column	undefined
+20230202	18:05:35	f4b04b17-a190-48e6-b762-b63b827c6b3e	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc41a3b05467c360b5c777") }" on model "Column"	DELETE	/column	undefined
+20230202	18:10:21	90c5b7b8-b2f2-4da6-b05f-75baa791ceac	ReferenceError: task is not defined	DELETE	/subtask	undefined
+20230202	18:12:59	5cb0404e-e965-49b1-942a-5748253344f8	ReferenceError: column is not defined	DELETE	/task	undefined
+20230202	19:16:42	14450524-110f-4df5-9ead-728035da3504	SyntaxError: Unexpected token " in JSON at position 9	POST	/board	undefined
+20230202	19:21:50	d498fb64-ddaf-440b-af2d-f6ecdc81d24f	SyntaxError: Unexpected token { in JSON at position 101	POST	/task	undefined
+20230202	19:28:02	15100c9d-9d25-4402-baec-16323d851a2a	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc538586f3dec634a43659") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230202	19:30:27	0b279c92-d259-44b7-acec-71f6da4d3c00	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230202	21:08:06	fae13fd8-a05e-4eb9-bfcf-763fa2afb3bc	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230204	13:34:39	393c3234-706c-4580-90ba-c75749265069	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230204	13:37:34	45e90f3f-b2ba-4e24-b573-194ffc3a120e	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230204	15:35:10	9f1cf3c7-4046-4aaf-ad41-f7c2fc18c85d	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc52e186f3dec634a43616") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230204	15:36:17	1fa1d0b5-236a-49b2-b564-634cddebf849	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc531e86f3dec634a4363e") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230204	15:45:46	0ef5ea36-d76d-4695-854f-02e51f85aa1f	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc532d86f3dec634a4364a") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230208	09:09:04	f491be42-d12f-4572-a847-dc7aedef51c0	CastError: Cast to ObjectId failed for value "rerorririo" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	09:09:48	56075997-b9db-4958-b2c8-4f59ab5e9f0b	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e2e6ca4362c5bc978ecb3a") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230208	09:09:53	f44e4502-8d99-4c9f-ba66-2695cdd78840	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e2e6f64362c5bc978ecb42") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230208	09:09:57	28d139b9-7e6b-481d-b6bd-a85a6dcf3174	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e2e7154362c5bc978ecb4c") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230208	09:10:02	1f8c7a8b-9370-49d2-a3a2-353a5310e461	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e2e7ff4362c5bc978ecb57") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230208	09:11:44	c6f5502a-d980-42a8-bcfb-47d081b940a0	CastError: Cast to ObjectId failed for value "rerorririo" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	09:23:52	94482954-6ae1-480c-83b7-6ea951aba0b0	CastError: Cast to ObjectId failed for value "rerorririo" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	09:24:25	f30bc051-4cb3-49d7-88e6-74a816e36b62	CastError: Cast to ObjectId failed for value "rerorririo" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	09:25:10	5be96ae9-a91c-4392-9fa2-811b1761f548	CastError: Cast to ObjectId failed for value "rerorririo" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	09:25:51	441e6e58-e998-4d86-ae66-fb14ab0e1671	CastError: Cast to ObjectId failed for value "cvmcmvxmxvn" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	09:26:57	fe2c1be6-37e7-4484-9603-b1914bc37674	CastError: Cast to ObjectId failed for value "rerorririo" (type string) at path "_id" for model "Column"	POST	/task	http://localhost:3000
+20230208	13:34:10	a850cc0a-8554-49ac-9137-b48aa198fb82	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:13	aadd670c-26ea-42f1-b7ec-e3a09e803fb1	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:15	f93dd3ee-e60e-4218-a743-2bf89c87b071	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:20	10c49533-7d94-485b-8740-13111318bb4c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:23	8b8332ae-3b2a-4822-9ae0-9f3064b782db	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:27	e28392b9-6461-4354-9694-c235865547f9	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:31	03eebdf5-371d-4f38-ab57-7f47ce2a0774	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:35	af1c0fae-d569-48e6-9c76-5c8b7008ed2d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:37	cd74fa07-cc26-4ac5-a4ae-1d742547bf26	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:40	00b613d8-eba1-46ff-87f4-37d68b2cc385	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:42	e9092e95-9ea7-4371-aa98-c52b8e37f3b8	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:43	8d90a183-a44f-4368-9124-a9b37bcbd482	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:45	aba031aa-0f9c-418b-99a7-05106fcbc2f8	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:51	8d7b241d-a72b-48ef-976d-dfcf801c9625	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:52	b13e4e47-0647-4080-9bf3-51e44ec2df9e	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:54	01bd0ac1-3e2f-4692-bdd8-e1b489b94cb0	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:34:56	a83e3b72-720f-4f5a-b7cf-3b13d7434ae5	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:03	7ba6eddd-940f-44e2-9c57-fab141ff1cf9	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:09	7b9b1c7b-16e5-4ad3-88a4-a65a4eae456a	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:11	2bc6ecf5-1979-4293-9aa3-32a1b9c4af31	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:12	10fc35c8-ddc1-45c1-aae5-3e445713ca25	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:13	203892f6-afc9-447b-b575-72a780d43d04	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:15	70611f25-3efe-4c7f-b6d2-10ee5e4441ce	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:15	2d266eba-2db0-4c57-ba1e-cf8d73830f32	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:17	dab74fe6-ff6a-4f0c-9e3c-a5db82764f13	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:18	0b57f42a-d297-47c2-a9e1-ec2b9b55f6b3	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:19	ea2342eb-45a0-460d-b3bf-8a87584a45b0	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:21	920912eb-d05a-4441-a540-59707bcff2e1	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:24	964c75ac-552f-45f5-a88e-fb581e531277	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:24	5e62b362-d5f8-467f-9947-9bf591ec6037	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:26	011d0586-961d-4a17-93fa-3644ad07eccc	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:35:35	cab53cc7-79f5-4416-ace8-80a86899dc0a	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:37:33	f8e22abf-e16b-4a20-a64f-2ee2345cf8e9	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:37:46	929f27cf-42a1-469a-8048-9631a97bda5f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:38:18	22458157-259b-4e1e-a25c-aa38c5687d58	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230208	13:38:26	125c4f03-d916-4e1f-963f-3b5ce853a5f9	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230209	08:18:04	16fb52e5-aabf-4886-8782-59da7163fad8	ReferenceError: status is not defined	PATCH	/task	undefined
+20230209	08:19:51	bb28fe62-767a-4461-af8d-ece424699bef	SyntaxError: Unexpected token / in JSON at position 32	PATCH	/task	undefined
+20230209	08:20:03	0bcd3a3a-7f98-429c-a1d4-219781cdaa5a	SyntaxError: Unexpected token / in JSON at position 32	PATCH	/task	undefined
+20230209	08:20:04	25dca963-9c73-4f45-a6cb-f54db8a688f3	SyntaxError: Unexpected token / in JSON at position 32	PATCH	/task	undefined
+20230209	08:20:25	966908cc-bccf-44d4-84bb-a8e34ef15d86	SyntaxError: Unexpected token / in JSON at position 41	PATCH	/task	undefined
+20230209	08:20:49	28350202-8a20-404c-a6c4-f7fdfdd185ce	SyntaxError: Unexpected token / in JSON at position 41	PATCH	/task	undefined
+20230209	08:20:55	cd62df2d-81b9-41a0-a98a-5878d9cf763c	ReferenceError: status is not defined	PATCH	/task	undefined
+20230209	08:21:18	a9f12d28-598e-4cae-a2e8-c083d6da4b38	SyntaxError: Unexpected token / in JSON at position 23	PATCH	/task	undefined
+20230209	08:21:59	afe944ba-bb4b-450d-abcc-e6275128b1c2	ReferenceError: status is not defined	PATCH	/task	undefined
+20230209	08:22:42	ec435a54-5a8d-4e6d-bdf0-52a3562ae186	ReferenceError: status is not defined	PATCH	/task	undefined
+20230209	08:23:58	885ef343-d769-45dd-b487-1a69904d736c	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	undefined
+20230209	08:40:00	1aad5676-98db-4bce-b2ad-033a55f1f7d6	TypeError: task.status.pull is not a function	PATCH	/task	undefined
+20230209	08:40:29	dd402832-4aa4-4333-90b7-6c00dc5b999b	ReferenceError: status is not defined	PATCH	/task	undefined
+20230209	08:41:49	2ab33b1e-0d80-48ba-bd3d-f084905b7170	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	undefined
+20230209	08:42:15	255db9b6-42fa-4ecb-8b83-60d6d4fc9c66	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	undefined
+20230209	08:59:47	d21bd083-c33d-4318-9305-4d3f55e8fa8b	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	http://localhost:3000
+20230209	08:59:56	ea845bda-c70d-45d4-8683-c88269930f4c	TypeError: task.status.push is not a function	PATCH	/task	http://localhost:3000
+20230209	09:00:29	aab58382-e056-4bbf-8be3-b4ed9b03eff5	TypeError: task.status.push is not a function	PATCH	/task	http://localhost:3000
+20230209	09:02:42	d261d5a1-57bc-4fd6-a8e2-a15daf0c371d	TypeError: task.status.push is not a function	PATCH	/task	http://localhost:3000
+20230209	09:03:50	d116f1e8-53dc-435c-bddc-6e908bfa877d	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	http://localhost:3000
+20230209	09:31:31	a236937d-5e2e-4e6f-8f1f-7d9ba3c77a8b	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	http://localhost:3000
+20230209	09:34:19	afa895c5-33ac-4580-9824-9019718450ae	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	http://localhost:3000
+20230209	09:39:15	5a3de5b0-47fa-4342-9bb2-95ff78669c12	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	http://localhost:3000
+20230209	09:48:02	3208de39-8ed5-46de-bcc3-24352f3b0118	TypeError: Cannot read properties of null (reading 'tasks')	PATCH	/task	http://localhost:3000
+20230209	09:52:52	7b3a1813-4805-4548-8335-c66815e203ac	ReferenceError: updatedTask is not defined	PATCH	/task	undefined
+20230209	09:54:58	80a2a4e4-cf12-48e8-9006-412025fb0de9	ReferenceError: newColumn is not defined	PATCH	/task	undefined
+20230209	10:00:19	169ce63e-5c08-4477-a2b1-37b4aa6ecb4c	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e2de4e4362c5bc978ecb34") }" on model "Task"	DELETE	/task	undefined
+20230209	10:02:32	42bc31bb-eb92-4a60-838a-2cf3cfdf42f7	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e3b0603aac889d7c84b1c3") }" on model "Task"	DELETE	/task	undefined
+20230209	10:04:03	3becfc0c-7953-4f57-baf9-a8e733525095	TypeError: task.status.push is not a function	PATCH	/task	undefined
+20230209	10:06:02	82f1f256-a581-4dc0-9ff2-56d47485ab5a	TypeError: task.status.push is not a function	PATCH	/task	undefined
+20230209	10:10:59	2fe2c4b0-f435-440f-89f0-8ca56920c9c3	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e3bb723aac889d7c84b202") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230209	14:04:29	f959979b-856f-4310-a44d-1388e3a9f99e	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e3c62f3aac889d7c84b238") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230209	14:06:53	96aae9af-c04d-40a3-bf82-ddd4bcf23378	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e2e8874362c5bc978ecb66") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230209	15:49:47	d64a5574-2227-4189-80bd-7f6586ad4566	SyntaxError: Unexpected token / in JSON at position 107	POST	/subtask	undefined
+20230211	09:54:58	20f9e691-39b4-4190-befd-2b581281c7a4	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc532886f3dec634a43644") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	12:56:03	1474f0a8-48d3-4c2d-bff0-1d39e04bc638	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc530086f3dec634a4362a") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	12:58:03	bec49539-7d82-4358-a67f-8bd13fa161ef	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc530886f3dec634a4362f") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	13:01:00	9bafbfea-66e9-4784-8794-965346e7a98b	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63dc531086f3dec634a43634") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	13:08:14	0b0a5cfd-6a34-4d39-a153-945f059f4229	Error: Cannot set headers after they are sent to the client	POST	/column	undefined
+20230211	13:08:40	f551cb9c-08d9-4ce3-a056-e73bd1401678	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e7d97a97d7f65052520ec9") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	19:25:46	d94d8b90-d7d7-4e85-9b3a-e664ffddb18e	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e831d697d7f65052520f56") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	20:29:12	d674a651-c4c2-4e75-afb5-c8dc405f8dff	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e7d98e97d7f65052520ed8") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230211	21:45:17	46a416f6-7ab2-4672-994a-0e683e69a715	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e55c7397d7f65052520d49") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230211	21:50:48	0523a6e5-b0e4-406a-8c3d-0c8fb53f4bc8	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e853fbc7efb01695234452") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230211	21:53:18	bae1b5a9-b8ab-48e1-b61d-ce2936ed2bd2	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e85468c7efb0169523445d") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230211	22:05:04	0bdafadf-b6ff-404f-99d8-bdcd97784bd4	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e8552f75a7869db8b02d3d") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230211	22:10:06	49cb8710-805b-4fe0-91d6-66a975a62760	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e857d475a7869db8b02d58") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230212	09:06:37	fbcf58f0-fdd7-41a4-9c7c-74d76d52f3ca	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e8edc798c8cffb962e88f0") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230212	22:04:10	30775748-a4fb-4a3f-bedb-9010da14d1c8	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230214	19:18:03	a63a2b17-5461-4a22-b366-8a3de563eb75	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230214	19:28:06	1cd3f4b5-7763-4f18-abfd-86a6607f50d1	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e56b8a97d7f65052520d73") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230215	20:48:35	99f2510c-c6f9-4eb5-949f-80657eefd472	Error: Cannot set headers after they are sent to the client	POST	/subtask	http://localhost:3000
+20230217	09:10:44	9b749faa-f652-498c-b61d-71e7c478f140	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63ef89dd7880d748f73d9d92") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230217	09:25:10	131e51f4-fad3-450d-b667-d70461611505	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63ef8e3513305190ce0b59ab") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230217	09:27:37	d8c50243-abf2-47ef-8b02-deba1e057b5b	Error: Cannot set headers after they are sent to the client	POST	/column	http://localhost:3000
+20230217	16:41:41	2636b2ba-6600-4d58-886a-e36cde2da4e0	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63e3b04e3aac889d7c84b1ba") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230217	16:41:46	ea9bec9f-97d2-425b-ba4b-64b8094e0857	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63ed841d7880d748f73d9c50") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	09:40:17	1fae6253-1dcb-48c7-887f-591dbc836bb9	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230218	12:23:22	3ffd044c-87fb-44bd-9bec-f38f03a889af	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f10968f609dfceb59a921d") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	12:24:27	a927000f-7486-4619-88c7-59f5f3ae0829	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f109bef609dfceb59a9234") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	12:28:56	892731f8-4ea1-40b6-997f-dd65299922d1	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f10a7bf609dfceb59a924b") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	12:31:58	21682539-0af0-4836-854f-950664470bd4	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f10ae2f609dfceb59a925e") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	12:41:55	f9074b65-c2b0-43a5-aad1-24b7a14df89d	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f10b9cf609dfceb59a9271") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	12:45:31	1406c33d-f503-4f7a-9826-f0a34c6f01ff	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f10df22189deb8cc16ce57") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	12:45:41	bb946b05-d8a8-4873-b961-a153ffe7ddce	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: "l''lnl'kk;" } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230218	12:45:58	1c5107fa-6dc2-4ff3-9ae3-8c3c747efb99	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: 'hi' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230218	12:57:39	99d98e2b-bb64-4d6d-8079-c7f0e8eab30f	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f110eae1de7caae8c4d1d1") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:00:00	9490887a-178f-46f8-8467-0dd449611516	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f111a2806c44f3727582a7") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:00:06	5d441402-01c9-4cf9-b365-3ae01bb64178	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f11209806c44f3727582c2") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:04:20	cba3b91f-d821-4401-a010-646603db05d2	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1123b806c44f3727582ee") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:05:39	53c3966e-4350-42a6-8122-d4573566d882	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f112aa806c44f372758321") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:05:53	32c4f5df-5a4f-4874-8c9c-fc769e64ddc5	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f112d6806c44f37275832c") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:06:02	8d4c8500-bcf0-43b6-a9ba-644684270de2	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1135286197292fac7ec96") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:56:36	04625d43-4512-433a-b750-1a70bf01b0f4	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f11f3986197292fac7ed12") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	13:56:42	c8a9032d-5267-44ac-8e43-ed5f28e9507c	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f113a786197292fac7ecc6") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	14:01:54	ae14eb8b-6796-4d50-8fcb-f02ac0bba7cc	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f11f8986197292fac7ed2c") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	14:21:59	2a49760a-43be-4646-a22d-0659819551c6	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f120b486197292fac7ed46") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	14:23:40	71d179c5-44bd-4ba5-912c-eca7fe352ce4	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f111a4806c44f3727582b1") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:23:50	6e9090fa-7b3d-4f04-9f5c-05fb2c27fc4c	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1123c806c44f372758301") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:23:57	f793573f-74d3-464e-9761-d31ae8e4db64	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1123c806c44f372758308") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:24:03	9a9d5e8b-569d-4f79-8707-a9cbcf9eecfc	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1123c806c44f3727582fa") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:24:08	2ec76432-b3ef-44fc-9b1c-f1bbadd59900	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f113a886197292fac7ecd3") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:24:23	0ec793f2-69c9-435a-aab9-15dfe85f3dd9	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f113a886197292fac7ecf1") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:24:57	d76c9299-9399-44b7-b4e7-407d38824b1c	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f113a886197292fac7ecdd") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:25:03	e1465591-f338-40da-9c8e-c2fcfe6ceee5	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f113a886197292fac7ece7") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:25:10	140f55d9-a171-49d1-871f-2f784dab3466	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f120b586197292fac7ed51") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:25:18	1917a1a8-fe1f-444c-8cae-676e82abc93a	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f120b586197292fac7ed5f") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:25:24	0dd685bd-79e2-4a0d-95fe-a5ad3b2a69cc	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1256486197292fac7eda5") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230218	14:25:49	6be5d7bb-8571-4920-bc8c-1d64d7e20f99	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1256386197292fac7ed9b") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	14:35:22	e9913375-9bcd-40bd-9a9a-6e03f696f8a5	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f127c886197292fac7edf6") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	14:36:35	3ae898fc-1343-42c1-b06f-cf4a95ddc264	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1288286197292fac7ee09") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	14:36:40	774f6fcb-ae1b-4abd-989f-7c132bb86681	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f128a586197292fac7ee17") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	15:16:16	2ea6086a-89b5-4ca4-847a-91c44d9cdf7c	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f128e786197292fac7ee34") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	15:17:39	32fdbe43-383e-486a-9e9d-49299b9cf0e8	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1324b86197292fac7ee4c") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230218	15:17:51	27690424-95af-4b1d-8772-2ea1c9fa9fd1	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230218	15:18:53	b3c871b2-49c5-4d6a-acd5-901d7da08d0e	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f1329c86197292fac7eecc") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230218	15:32:14	e4ef19c3-ea86-406f-94ac-62634649251a	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230219	18:15:20	3e1431d8-10c8-4390-86bb-aa5e82ada18d	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f2ad7bdfdce5798f0c0368") }" on model "Task"	DELETE	/task	http://localhost:3000
+20230225	13:37:59	a513d4e9-850e-463f-b414-1781b37bcda7	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("63f9823edfdce5798f0c047b") }" on model "Column"	DELETE	/column	http://localhost:3000
+20230227	13:53:40	15372705-9605-4660-b4f0-678c8a6b4130	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230227	13:53:54	bef79622-ddda-4c5c-8def-b8d234e2ab98	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230227	19:39:04	9310355f-7ccc-45c8-b184-ffb989953661	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230227	19:39:52	efe95efc-899d-4d63-9e46-d94fc98f5daf	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230227	19:40:44	bfc58a78-fe99-42cf-9551-5a1d37d9145b	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230227	19:41:28	48e68662-bde7-43d4-8ec2-2881d30abe85	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230227	19:41:53	97ba3444-04b2-4fed-af26-1ae2a8d36034	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230304	11:29:41	388a86a2-6dae-47a6-976c-15cfb50d73a8	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("64036b75fcdf71b247b1eb40") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230304	11:30:59	37821e90-7dab-41d2-b253-420e99233e5a	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("64036b70fcdf71b247b1eb3b") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230304	12:37:15	c53f5268-237d-42c2-a145-b4bf95385c4e	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	DELETE	/subtask	undefined
+20230304	12:37:48	374afd7f-2706-49d8-8003-060581007241	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	DELETE	/subtask	undefined
+20230304	12:38:17	868d69b5-49aa-4a51-94c6-286ac1de7a18	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("64036b6afcdf71b247b1eb37") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230304	12:41:13	842ec990-6d43-479d-870d-9844158d124a	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("640382a5c06824f781d5f4ea") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230304	12:54:08	b25131f1-a165-45c1-afa8-c1e0a575a0dd	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("640382a0c06824f781d5f4d9") }" on model "Subtasks"	DELETE	/subtask	undefined
+20230304	12:58:33	dfd68d5a-5508-4d6e-949b-329cad6f404c	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("64036b1afcdf71b247b1eb2f") }" on model "Task"	DELETE	/task	undefined
+20230304	13:02:48	6a3e22b7-d65e-4c04-a35b-ce381e76e98f	DocumentNotFoundError: No document found for query "{ _id: new ObjectId("64036a97fcdf71b247b1eafe") }" on model "Column"	DELETE	/column	undefined
+20230311	09:19:38	80287ceb-d826-4091-b1eb-5cec33eb365a	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	09:23:42	426a8870-7b60-4d96-a773-3179d3961a51	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	09:28:12	46354bf4-c746-4581-a53a-fe6a0eb761ed	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	09:28:25	16e48882-7ea4-4f7f-9178-5db586d30e84	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:37:03	8209dea6-7428-49b0-a2a1-c8cbc0a0b891	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:37:21	461e4556-325c-4175-b665-c160bff60a10	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:37:47	9164839e-e8ca-44b1-8702-de246eaba654	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:38:11	488acbe8-c456-47a1-b445-8e8cb2a172cf	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:40:40	d1c34c29-396f-417e-83b5-9b42ee7b803d	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:41:11	97005996-cd95-43bc-94d6-f431f9b4487d	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230311	10:41:35	4908d515-2445-407d-a01a-3526856d7360	Error: Cannot set headers after they are sent to the client	PATCH	/task	http://localhost:3000
+20230407	14:55:42	e40701e1-986a-4c86-83f3-38bb9493efbb	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: 'nklnl' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230407	15:12:18	3a5a12d4-2af8-45bc-a97a-c8ed3e090671	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: 'kjbk' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230407	15:16:26	815f86ec-ab69-4137-8a3f-ca05893888bf	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230407	15:34:26	743b0ff4-2f28-4e49-b7d1-b417eadf61ed	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230407	15:34:56	b31d3538-c458-4a10-a45e-84a2b0be5b80	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230407	15:36:06	61e6cef8-81e4-40b1-bc89-88a3ac8fb12d	ValidationError: Column validation failed: name: Cast to string failed for value "[ { name: 'lnlknlk' }, { name: ';m;kmklk' } ]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230407	15:40:50	88ea80c8-08f3-48a2-8692-eade5bb7f2db	ValidationError: Column validation failed: name: Cast to string failed for value "[]" (type Array) at path "name"	POST	/column	http://localhost:3000
+20230410	19:34:03	24771e03-f48b-4e18-9ac3-2cf87d505476	MongooseServerSelectionError: connection <monitor> to 54.71.130.183:27017 timed out	GET	/column	http://localhost:3000
+20230413	15:15:46	fb83a2be-4186-4c0c-a6c8-b51616178067	Error: Cannot set headers after they are sent to the client	POST	/column	http://localhost:3000
+20230710	18:17:54	532a8849-5392-4370-bd20-a78662341dd8	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230710	18:17:55	51a90105-8e28-4778-b8dd-99e1a52be53f	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230710	18:17:58	d5ca8f17-ebdd-4f75-9074-6c9e98737f72	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230710	18:17:58	57b52baf-1481-439e-ac82-aff2f87956d1	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230716	14:18:46	13fa7333-0351-4a4f-8ac0-2392d1e8f9fd	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:43:55	c414603c-56b4-45f8-92ea-6b623eda201d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/task	http://localhost:3000
+20230718	15:43:55	98e9d123-edfd-4f82-8e36-35fe3172dd58	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230718	15:43:55	911a9e68-b052-4642-86d4-df8b1744c5f0	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:43:55	2190d55c-3044-427c-8418-87ac93eebccd	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230718	15:44:35	8026e721-0528-42f9-9b0c-7d90345d94f3	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/task	http://localhost:3000
+20230718	15:44:35	850e6567-830e-4b66-8a82-d119f7d01659	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:44:35	b05e79fa-3c45-46b8-a206-f49d16ef2637	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230718	15:45:25	7486cb4f-cb90-44f3-82f3-202b82a51041	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230718	15:45:25	92e2fee7-86e3-499c-a9b1-f26c69da64bd	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/task	http://localhost:3000
+20230718	15:45:25	fa3abc8a-07e8-4b20-b0cf-26650dcb7e72	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230718	15:45:25	52d19ab9-1649-4896-9301-6e12f3e4d1ec	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:46:10	12311249-1b56-4396-9690-6d703d59547c	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/task	http://localhost:3000
+20230718	15:46:11	88bc8058-cf09-4d53-922f-f496991212dd	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:46:11	370e8ed6-52ea-49d0-91d5-8c8f2c0a367d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230718	15:52:25	012dba95-0401-4adc-a1bb-cd9fa65cb450	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/task	http://localhost:3000
+20230718	15:52:25	3e4d65cb-5f4c-44e7-bf53-0e572bec316d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:52:25	5dcdda2b-bcb8-442d-a9a3-a7c6dff8f577	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230718	15:53:03	731a63f0-cc75-48b5-80ca-2c9d9bd54019	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230718	15:53:03	0cf87f70-6300-4358-9970-49b22f747edc	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/task	http://localhost:3000
+20230718	15:53:03	1fbce8b7-dc61-4575-93f8-cdce3e32b425	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230718	15:53:03	57e2099c-6255-45f7-99f8-dc2214ef9bcc	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230718	16:21:00	522fa30f-a957-41c1-8c92-c9844afbb0d8	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230718	16:24:19	770cf61f-bc98-4d2c-8cc0-d72b33606e68	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230719	11:42:56	a2998472-40da-425b-ac08-2df789403258	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230719	11:42:56	2b0e182b-5590-4537-9bdf-c6b981b03193	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230719	11:42:56	43c16d29-42a8-43d5-80fc-672211d53a65	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230719	11:43:36	83e4c387-0d68-4fa2-8d61-1e1d7f9fd1a4	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/board	http://localhost:3000
+20230719	11:43:36	1b40253b-ae72-478a-b194-0155ff81bd9d	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/column	http://localhost:3000
+20230719	11:43:36	be4f293b-1c75-476c-8d8c-4866ddc72726	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/	GET	/subtask	http://localhost:3000
+20230722	13:51:31	5551ead5-a8c6-4288-ba3b-dcdb246c19f7	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'tasks' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'Object'
+    --- property 'status' closes the circle	POST	/task	http://localhost:3000
+20230722	13:52:21	13b43039-b2cd-497d-825c-58f3646b37f7	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'tasks' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'Object'
+    --- property 'status' closes the circle	POST	/task	http://localhost:3000
