@@ -43,8 +43,11 @@ const createNewColumn = asyncHandler(async (req, res) => {
             }
         })
 
+        // Get a random color
+        const color = Math.floor(Math.random() * 16777215).toString(16);
+
         // Create and store the new column 
-        const column = await Column.create({ name })
+        const column = await Column.create({ name, color })
 
         board.columns.push(column);
 

@@ -5,6 +5,10 @@ const columnSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    color: {
+        type: String,
+        required: true
+    },
     tasks: [{
         type: mongoose.Schema.Types.ObjectId,
         required: true,
